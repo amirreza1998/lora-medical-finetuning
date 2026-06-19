@@ -1,0 +1,661 @@
+{
+"Asthma": {
+"medicine": [
+"Inhaled corticosteroids (ICS) such as budesonide, fluticasone, beclomethasone - reduce inflammation in airways",
+"Short-acting beta-agonists (SABA) like albuterol (salbutamol), levalbuterol - for quick relief of symptoms",
+"Long-acting beta-agonists (LABA) such as salmeterol, formoterol - for long-term control, often combined with ICS",
+"Leukotriene receptor antagonists (LTRA) like montelukast, zafirlukast - block inflammatory chemicals",
+"Anticholinergics such as ipratropium (short-acting) or tiotropium (long-acting) - relax airway muscles",
+"Theophylline - bronchodilator for mild persistent asthma, though less commonly used due to side effects",
+"Biologics like omalizumab (anti-IgE for allergic asthma), mepolizumab or reslizumab (anti-IL-5 for eosinophilic asthma), dupilumab (anti-IL-4/13 for severe asthma)",
+"Oral corticosteroids like prednisone - for short-term use in exacerbations",
+"Cromolyn sodium or nedocromil - mast cell stabilizers, preventive for exercise-induced asthma"
+],
+"methods": [
+"Avoidance of triggers such as allergens, smoke, pollution, and irritants through environmental control",
+"Asthma action plan development with peak flow monitoring for self-management",
+"Pulmonary rehabilitation including exercise training to improve lung function and endurance",
+"Breathing techniques like pursed-lip breathing or diaphragmatic breathing to manage symptoms",
+"Allergen immunotherapy (allergy shots or sublingual tablets) for allergen-specific control",
+"Weight management and regular physical activity to reduce asthma severity",
+"Vaccinations against influenza and pneumococcus to prevent respiratory infections",
+"Education on proper inhaler technique and medication adherence",
+"Bronchial thermoplasty - a procedure for severe asthma to reduce airway smooth muscle"
+]
+},
+"Osteoarthritis": {
+"medicine": [
+"Acetaminophen (paracetamol) - for mild pain relief",
+"Nonsteroidal anti-inflammatory drugs (NSAIDs) like ibuprofen, naproxen, diclofenac - reduce pain and inflammation",
+"Topical NSAIDs such as diclofenac gel - for localized joint pain",
+"Duloxetine - an antidepressant that helps with chronic pain",
+"Tramadol - opioid-like analgesic for moderate to severe pain",
+"Capsaicin cream - topical for pain relief from chili peppers",
+"Corticosteroid injections - intra-articular for short-term relief of inflammation",
+"Hyaluronic acid injections (viscosupplementation) - to lubricate joints",
+"Disease-modifying osteoarthritis drugs (DMOADs) in research, like sprifermin (experimental fibroblast growth factor)"
+],
+"methods": [
+"Physical therapy to strengthen muscles around joints and improve flexibility",
+"Weight loss programs to reduce stress on weight-bearing joints like knees and hips",
+"Exercise regimens including low-impact activities like swimming, cycling, or tai chi",
+"Occupational therapy for joint protection techniques and adaptive devices",
+"Bracing or orthotics to support affected joints",
+"Heat or cold therapy for symptom relief",
+"Acupuncture or transcutaneous electrical nerve stimulation (TENS) for pain management",
+"Joint replacement surgery (arthroplasty) for severe cases, e.g., knee or hip replacement",
+"Arthroscopy for minor repairs or cartilage trimming"
+]
+},
+"Influenza (Flu)": {
+"medicine": [
+"Oseltamivir (Tamiflu) - neuraminidase inhibitor, oral antiviral for treatment within 48 hours of symptoms",
+"Zanamivir (Relenza) - inhaled neuraminidase inhibitor for treatment and prevention",
+"Peramivir (Rapivab) - intravenous neuraminidase inhibitor for severe cases",
+"Baloxavir marboxil (Xofluza) - single-dose oral antiviral that inhibits viral replication",
+"Acetaminophen or ibuprofen - for fever and pain relief",
+"Avoid aspirin in children due to Reye's syndrome risk"
+],
+"methods": [
+"Rest and hydration with plenty of fluids to support recovery",
+"Isolation to prevent spread, including staying home from work or school",
+"Humidified air or steam inhalation to relieve congestion",
+"Nutritional support with balanced diet to boost immune system",
+"Oxygen therapy or mechanical ventilation in severe hospitalized cases",
+"Annual flu vaccination as primary prevention, though not a treatment method"
+]
+},
+"Diarrheal Diseases": {
+"medicine": [
+"Oral rehydration salts (ORS) - to replace fluids and electrolytes",
+"Zinc supplements - reduce duration and severity in children",
+"Antibiotics like ciprofloxacin or azithromycin - for bacterial causes like cholera or shigella",
+"Antiparasitics such as metronidazole - for protozoal infections like giardia",
+"Antimotility agents like loperamide - for symptom relief in non-infectious or mild cases",
+"Probiotics like Lactobacillus strains - to restore gut flora",
+"Antivirals if viral cause identified, though rare"
+],
+"methods": [
+"Fluid replacement therapy, intravenous in severe dehydration",
+"Nutritional management with continued feeding, especially breastfeeding in infants",
+"Hand hygiene education to prevent spread",
+"Dietary adjustments like BRAT diet (bananas, rice, applesauce, toast) for recovery",
+"Hospitalization for severe cases with monitoring of vital signs",
+"Vaccination against rotavirus or cholera in endemic areas as prevention"
+]
+},
+"Schizophrenia": {
+"medicine": [
+"First-generation antipsychotics like haloperidol, chlorpromazine - block dopamine receptors",
+"Second-generation antipsychotics such as risperidone, olanzapine, quetiapine - affect dopamine and serotonin",
+"Aripiprazole or brexpiprazole - partial dopamine agonists",
+"Clozapine - for treatment-resistant schizophrenia, requires blood monitoring",
+"Long-acting injectable antipsychotics like paliperidone palmitate - for better adherence",
+"Antidepressants like sertraline if comorbid depression",
+"Benzodiazepines like lorazepam - for acute agitation"
+],
+"methods": [
+"Cognitive behavioral therapy (CBT) for psychosis to manage symptoms",
+"Psychosocial interventions including family therapy and social skills training",
+"Supported employment or vocational rehabilitation",
+"Electroconvulsive therapy (ECT) for severe or treatment-resistant cases",
+"Community support programs like assertive community treatment (ACT)",
+"Lifestyle management including exercise and smoking cessation",
+"Art or music therapy for emotional expression"
+]
+},
+"Major Depressive Disorder": {
+"medicine": [
+"Selective serotonin reuptake inhibitors (SSRIs) like sertraline, fluoxetine, escitalopram - increase serotonin levels",
+"Serotonin-norepinephrine reuptake inhibitors (SNRIs) such as venlafaxine, duloxetine",
+"Tricyclic antidepressants (TCAs) like amitriptyline - older class, more side effects",
+"Monoamine oxidase inhibitors (MAOIs) like phenelzine - for atypical depression",
+"Atypical antidepressants like bupropion (for energy) or mirtazapine (for sleep)",
+"Ketamine or esketamine nasal spray - for treatment-resistant depression, rapid acting",
+"Augmentation with lithium or atypical antipsychotics like aripiprazole"
+],
+"methods": [
+"Cognitive behavioral therapy (CBT) to change negative thought patterns",
+"Interpersonal therapy (IPT) focusing on relationships",
+"Electroconvulsive therapy (ECT) for severe or refractory cases",
+"Transcranial magnetic stimulation (TMS) - non-invasive brain stimulation",
+"Mindfulness-based cognitive therapy (MBCT) to prevent relapse",
+"Exercise programs like aerobic activity to boost endorphins",
+"Light therapy for seasonal affective disorder",
+"Psychodynamic therapy to explore unconscious conflicts"
+]
+},
+"HIV/AIDS": {
+"medicine": [
+"Nucleoside reverse transcriptase inhibitors (NRTIs) like tenofovir, emtricitabine",
+"Non-nucleoside reverse transcriptase inhibitors (NNRTIs) such as efavirenz, rilpivirine",
+"Protease inhibitors (PIs) like darunavir, atazanavir - often boosted with ritonavir",
+"Integrase strand transfer inhibitors (INSTIs) such as dolutegravir, bictegravir",
+"Combination therapies like Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide)",
+"Entry inhibitors like maraviroc or enfuvirtide",
+"Post-exposure prophylaxis (PEP) regimens",
+"Treatment for opportunistic infections, e.g., trimethoprim-sulfamethoxazole for PCP"
+],
+"methods": [
+"Antiretroviral therapy (ART) adherence counseling",
+"Regular viral load and CD4 count monitoring",
+"Pre-exposure prophylaxis (PrEP) for prevention in high-risk individuals",
+"Supportive care including nutritional support and mental health services",
+"Vaccinations against hepatitis, pneumococcus, and influenza",
+"Harm reduction programs like needle exchange",
+"Gene therapy or stem cell transplants in experimental stages for cure"
+]
+},
+"Alzheimer's Disease": {
+"medicine": [
+"Cholinesterase inhibitors like donepezil, rivastigmine, galantamine - increase acetylcholine levels",
+"Memantine - NMDA receptor antagonist for moderate to severe disease",
+"Aducanumab or lecanemab - monoclonal antibodies targeting amyloid plaques",
+"Antidepressants like SSRIs for comorbid depression",
+"Antipsychotics like quetiapine for agitation, used cautiously",
+"Melatonin or trazodone for sleep disturbances"
+],
+"methods": [
+"Cognitive stimulation therapy to maintain mental function",
+"Reminiscence therapy using past memories to engage patients",
+"Physical exercise programs to slow cognitive decline",
+"Dietary interventions like Mediterranean diet rich in antioxidants",
+"Caregiver support and education programs",
+"Music or pet therapy for behavioral symptoms",
+"Occupational therapy for daily living skills",
+"Deep brain stimulation in experimental trials"
+]
+},
+"Ischemic Heart Disease (Coronary Artery Disease)": {
+"medicine": [
+"Aspirin or clopidogrel - antiplatelet agents to prevent clots",
+"Statins like atorvastatin, rosuvastatin - lower cholesterol",
+"Beta-blockers such as metoprolol, carvedilol - reduce heart workload",
+"ACE inhibitors like lisinopril or ARBs like losartan - for blood pressure and heart protection",
+"Nitrates like nitroglycerin - for angina relief",
+"Calcium channel blockers such as amlodipine - relax blood vessels",
+"PCSK9 inhibitors like evolocumab - for high cholesterol",
+"Anticoagulants like rivaroxaban if atrial fibrillation present"
+],
+"methods": [
+"Percutaneous coronary intervention (PCI) with stenting",
+"Coronary artery bypass grafting (CABG) surgery",
+"Lifestyle modification including diet (low-fat, high-fiber) and exercise",
+"Cardiac rehabilitation programs post-event",
+"Smoking cessation counseling and aids",
+"Stress management techniques like meditation",
+"Implantable devices like pacemakers if arrhythmias",
+"Enhanced external counterpulsation (EECP) for refractory angina"
+]
+},
+"Chronic Obstructive Pulmonary Disease (COPD)": {
+"medicine": [
+"Short-acting bronchodilators like albuterol (beta-agonist) or ipratropium (anticholinergic)",
+"Long-acting bronchodilators such as tiotropium, salmeterol",
+"Inhaled corticosteroids like fluticasone - combined with LABA (e.g., Advair)",
+"Phosphodiesterase-4 inhibitors like roflumilast - reduce exacerbations",
+"Theophylline - for additional bronchodilation",
+"Mucolytics like acetylcysteine - thin mucus",
+"Antibiotics like azithromycin for exacerbations or prophylaxis",
+"Biologics like dupilumab for eosinophilic COPD"
+],
+"methods": [
+"Smoking cessation programs with counseling and nicotine replacement",
+"Pulmonary rehabilitation including exercise and education",
+"Oxygen therapy for hypoxemic patients",
+"Non-invasive ventilation (BiPAP) for acute exacerbations",
+"Lung volume reduction surgery for severe emphysema",
+"Bronchoscopic lung volume reduction with valves",
+"Nutritional support for underweight patients",
+"Vaccinations against flu, pneumococcus, and COVID-19"
+]
+},
+"Chronic Kidney Disease (CKD)": {
+"medicine": [
+"ACE inhibitors like enalapril or ARBs like irbesartan - reduce proteinuria and slow progression",
+"SGLT2 inhibitors like dapagliflozin - protect kidneys in diabetic CKD",
+"Diuretics like furosemide - manage fluid overload",
+"Erythropoiesis-stimulating agents (ESAs) like epoetin - treat anemia",
+"Phosphate binders like sevelamer - control hyperphosphatemia",
+"Vitamin D analogs like calcitriol - for bone disease",
+"Statins for cardiovascular protection",
+"Finerenone - mineralocorticoid receptor antagonist for diabetic kidney disease"
+],
+"methods": [
+"Blood pressure control through lifestyle and monitoring",
+"Dietary restrictions: low-protein, low-sodium, low-potassium/phosphorus",
+"Dialysis (hemodialysis or peritoneal) for end-stage disease",
+"Kidney transplantation for eligible patients",
+"Weight management and exercise to control diabetes/hypertension",
+"Smoking cessation to slow progression",
+"Regular monitoring of eGFR and albuminuria",
+"Arteriovenous fistula creation for dialysis access"
+]
+},
+"Liver Disease": {
+"medicine": [
+"Ursodeoxycholic acid (UDCA) - for primary biliary cholangitis",
+"Antivirals like entecavir or tenofovir - for viral hepatitis",
+"Corticosteroids or immunosuppressants like azathioprine - for autoimmune hepatitis",
+"Obeticholic acid - for non-alcoholic steatohepatitis (NASH)",
+"Lactulose or rifaximin - for hepatic encephalopathy",
+"Diuretics like spironolactone - for ascites",
+"Beta-blockers like propranolol - for portal hypertension",
+"Vitamin supplements (e.g., vitamin K) for deficiencies"
+],
+"methods": [
+"Alcohol abstinence programs for alcoholic liver disease",
+"Weight loss and exercise for NAFLD/NASH",
+"Liver transplantation for end-stage disease",
+"Endoscopic variceal banding for bleeding varices",
+"Transjugular intrahepatic portosystemic shunt (TIPS) for complications",
+"Nutritional therapy with high-calorie supplements",
+"Vaccination against hepatitis A and B",
+"Paracentesis for ascites relief"
+]
+},
+"Congenital Heart Disease": {
+"medicine": [
+"Diuretics like furosemide - for heart failure symptoms",
+"ACE inhibitors or ARBs - to reduce heart workload",
+"Beta-blockers like propranolol - for arrhythmias or outflow obstruction",
+"Anticoagulants like warfarin - for thrombotic risks",
+"Prostaglandin E1 (alprostadil) - to keep ductus arteriosus open in neonates",
+"Antiarrhythmics like amiodarone if needed",
+"Sildenafil - for pulmonary hypertension"
+],
+"methods": [
+"Surgical repair like ventricular septal defect closure",
+"Catheter-based interventions such as balloon valvuloplasty",
+"Heart transplantation for complex cases",
+"Pacemaker or implantable cardioverter-defibrillator (ICD) implantation",
+"Fetal interventions in utero for severe defects",
+"Lifelong follow-up with echocardiography",
+"Exercise restriction based on defect severity",
+"Genetic counseling for families"
+]
+},
+"Hypertension": {
+"medicine": [
+"Thiazide diuretics like hydrochlorothiazide - promote urine excretion",
+"ACE inhibitors like ramipril - relax blood vessels",
+"Angiotensin receptor blockers (ARBs) like valsartan",
+"Calcium channel blockers like nifedipine or diltiazem",
+"Beta-blockers such as atenolol - slow heart rate",
+"Alpha-blockers like doxazosin - for resistant cases",
+"Aldosterone antagonists like spironolactone",
+"Direct renin inhibitors like aliskiren"
+],
+"methods": [
+"Lifestyle changes: DASH diet (low sodium, high potassium)",
+"Regular aerobic exercise (150 minutes/week)",
+"Weight reduction programs",
+"Stress reduction techniques like yoga or biofeedback",
+"Home blood pressure monitoring",
+"Smoking cessation and alcohol limitation",
+"Renal denervation procedure for resistant hypertension",
+"Sleep apnea treatment with CPAP if comorbid"
+]
+},
+"Tuberculosis (TB)": {
+"medicine": [
+"Isoniazid (INH) - first-line, bactericidal",
+"Rifampin (RIF) - first-line, broad-spectrum",
+"Pyrazinamide (PZA) - first-line, for initial phase",
+"Ethambutol (EMB) - first-line, prevents resistance",
+"Standard regimen: RIPE (RIF, INH, PZA, EMB) for 2 months, then RIF+INH for 4 months",
+"For MDR-TB: Bedaquiline, linezolid, delamanid, fluoroquinolones like levofloxacin",
+"Streptomycin - injectable for certain cases",
+"Vitamin B6 (pyridoxine) - to prevent INH neuropathy"
+],
+"methods": [
+"Directly observed therapy (DOT) for adherence",
+"Isolation in airborne infection rooms for pulmonary TB",
+"Contact tracing and latent TB treatment with INH",
+"Nutritional support to improve outcomes",
+"Surgery like lobectomy for cavitary or MDR-TB",
+"BCG vaccination for prevention in high-risk areas",
+"Respiratory hygiene education",
+"Whole genome sequencing for drug resistance testing"
+]
+},
+"Type 2 Diabetes": {
+"medicine": [
+"Metformin - first-line, reduces hepatic glucose production",
+"Sulfonylureas like glipizide - stimulate insulin release",
+"DPP-4 inhibitors like sitagliptin - prolong incretin effects",
+"GLP-1 receptor agonists like semaglutide (Ozempic) - injectable, aid weight loss",
+"SGLT2 inhibitors like empagliflozin - promote glucose excretion in urine",
+"Thiazolidinediones like pioglitazone - improve insulin sensitivity",
+"Insulin therapy (basal like glargine or rapid-acting like lispro) for advanced cases",
+"Alpha-glucosidase inhibitors like acarbose - slow carbohydrate absorption"
+],
+"methods": [
+"Lifestyle intervention: balanced diet (low glycemic index) and exercise",
+"Bariatric surgery (gastric bypass) for obese patients",
+"Continuous glucose monitoring (CGM) for management",
+"Diabetes self-management education (DSME)",
+"Foot care and regular screenings for complications",
+"Pancreatic islet transplantation in experimental stages",
+"Behavioral therapy for adherence",
+"Vaccinations to prevent infections"
+]
+},
+"Herpes Zoster (Shingles)": {
+"medicine": [
+"Acyclovir - oral antiviral to reduce duration",
+"Valacyclovir - higher bioavailability version of acyclovir",
+"Famciclovir - another oral antiviral option",
+"Gabapentin or pregabalin - for postherpetic neuralgia pain",
+"Corticosteroids like prednisone - adjunct for severe pain",
+"Topical lidocaine patches - for localized pain relief",
+"Capsaicin cream - for neuralgia",
+"Antidepressants like amitriptyline - for neuropathic pain"
+],
+"methods": [
+"Rest and pain management during acute phase",
+"Wet compresses or calamine lotion for rash relief",
+"Vaccination with Shingrix for prevention in adults over 50",
+"Nerve blocks or epidural injections for severe pain",
+"Physical therapy for mobility if affected",
+"Isolation to prevent varicella transmission to non-immune",
+"Cognitive behavioral therapy for chronic pain"
+]
+},
+"Breast Cancer": {
+"medicine": [
+"Tamoxifen or raloxifene - selective estrogen receptor modulators (SERMs) for hormone-positive",
+"Aromatase inhibitors like anastrozole, letrozole - for postmenopausal hormone-positive",
+"Chemotherapy agents like doxorubicin, cyclophosphamide, paclitaxel",
+"Targeted therapies: trastuzumab (Herceptin) for HER2-positive",
+"PARP inhibitors like olaparib for BRCA mutations",
+"Immunotherapy like pembrolizumab for triple-negative",
+"Bisphosphonates like zoledronic acid - for bone metastases",
+"CDK4/6 inhibitors like palbociclib for advanced hormone-positive"
+],
+"methods": [
+"Lumpectomy or mastectomy surgery",
+"Radiation therapy post-surgery",
+"Sentinel lymph node biopsy for staging",
+"Hormone therapy as adjuvant",
+"Reconstructive surgery after mastectomy",
+"Genetic testing and counseling for BRCA",
+"Palliative care for advanced stages",
+"Clinical trials for novel therapies like CAR-T cells"
+]
+},
+"Prostate Cancer": {
+"medicine": [
+"Androgen deprivation therapy (ADT): leuprolide (LHRH agonist), degarelix (antagonist)",
+"Anti-androgens like bicalutamide, enzalutamide",
+"Chemotherapy like docetaxel for advanced disease",
+"Abiraterone - inhibits androgen synthesis",
+"PARP inhibitors like olaparib for BRCA mutations",
+"Sipuleucel-T - immunotherapy vaccine",
+"Bisphosphonates or denosumab - for bone health",
+"Radium-223 - for bone metastases"
+],
+"methods": [
+"Active surveillance for low-risk cases",
+"Radical prostatectomy surgery",
+"Radiation therapy: external beam or brachytherapy",
+"Focal therapy like high-intensity focused ultrasound (HIFU)",
+"Cryotherapy for localized disease",
+"Hormone therapy combined with radiation",
+"Palliative radiation for metastases",
+"PSA monitoring for follow-up"
+]
+},
+"Lung Cancer": {
+"medicine": [
+"Chemotherapy: cisplatin, carboplatin combined with etoposide or pemetrexed",
+"Targeted therapies: osimertinib for EGFR mutations, crizotinib for ALK fusions",
+"Immunotherapy: nivolumab or pembrolizumab (PD-1 inhibitors)",
+"Tyrosine kinase inhibitors like gefitinib for non-small cell",
+"Bevacizumab - anti-angiogenic for advanced NSCLC",
+"Durvalumab - post-chemoradiation consolidation",
+"Amivantamab - for EGFR exon 20 insertions"
+],
+"methods": [
+"Lobectomy or pneumonectomy surgery for early-stage",
+"Stereotactic body radiation therapy (SBRT) for inoperable tumors",
+"Video-assisted thoracoscopic surgery (VATS) for minimally invasive resection",
+"Palliative care including bronchoscopy for airway obstruction",
+"Smoking cessation support",
+"Nutritional and respiratory therapy",
+"Liquid biopsy for biomarker testing",
+"Clinical trials for CAR-T or gene therapies"
+]
+},
+"Liver Cancer": {
+"medicine": [
+"Sorafenib or lenvatinib - tyrosine kinase inhibitors for advanced HCC",
+"Regorafenib - second-line for HCC",
+"Immunotherapy: nivolumab or pembrolizumab",
+"Bevacizumab + atezolizumab - combination for unresectable HCC",
+"Chemotherapy like gemcitabine for cholangiocarcinoma",
+"Antivirals if underlying hepatitis"
+],
+"methods": [
+"Surgical resection for early-stage tumors",
+"Liver transplantation (Milan criteria)",
+"Radiofrequency ablation (RFA) or microwave ablation for small tumors",
+"Transarterial chemoembolization (TACE) for intermediate-stage",
+"Yttrium-90 radioembolization",
+"External beam radiation or stereotactic body radiotherapy",
+"Palliative stenting for biliary obstruction",
+"Surveillance with ultrasound and AFP in high-risk patients"
+]
+},
+"Colorectal Cancer": {
+"medicine": [
+"Chemotherapy: 5-fluorouracil (5-FU), oxaliplatin (FOLFOX regimen)",
+"Targeted therapies: cetuximab or panitumumab for RAS wild-type",
+"Bevacizumab - anti-VEGF for metastatic",
+"Immunotherapy: pembrolizumab for MSI-high tumors",
+"Regorafenib - for refractory metastatic",
+"Irinotecan-based regimens like FOLFIRI",
+"Trifluridine-tipiracil for advanced disease"
+],
+"methods": [
+"Colonoscopy with polypectomy for early detection",
+"Colectomy surgery for localized cancer",
+"Radiation therapy for rectal cancer",
+"Ostomy creation if needed post-surgery",
+"Hyperthermic intraperitoneal chemotherapy (HIPEC) for peritoneal metastases",
+"Liver-directed therapies like ablation for metastases",
+"Genetic testing for Lynch syndrome",
+"Nutritional support and rehabilitation"
+]
+},
+"Stomach Cancer": {
+"medicine": [
+"Chemotherapy: 5-FU, cisplatin, docetaxel (ECF regimen)",
+"Targeted therapies: trastuzumab for HER2-positive",
+"Ramucirumab - anti-VEGF for advanced",
+"Immunotherapy: nivolumab for PD-L1 positive",
+"Pembrolizumab for MSI-high or EBV-positive",
+"Capecitabine - oral chemo alternative"
+],
+"methods": [
+"Gastrectomy (partial or total) surgery",
+"Endoscopic mucosal resection for early-stage",
+"Radiation therapy adjuvant or palliative",
+"Perioperative chemotherapy",
+"Nutritional support with feeding tubes if dysphagia",
+"Helicobacter pylori eradication if associated",
+"Palliative stenting for obstruction",
+"Clinical trials for CAR-T therapies"
+]
+},
+"Stroke": {
+"medicine": [
+"Tissue plasminogen activator (tPA, alteplase) - for ischemic stroke within 4.5 hours",
+"Aspirin or clopidogrel - antiplatelet for secondary prevention",
+"Anticoagulants like warfarin or apixaban for cardioembolic strokes",
+"Statins like atorvastatin - for atherosclerosis",
+"Blood pressure medications like labetalol IV for acute management",
+"Nimodipine - for subarachnoid hemorrhage to prevent vasospasm",
+"Mannitol - osmotic diuretic for cerebral edema"
+],
+"methods": [
+"Endovascular thrombectomy for large vessel occlusion",
+"Rehabilitation: physical, occupational, speech therapy",
+"Carotid endarterectomy or stenting for stenosis",
+"Decompressive craniectomy for malignant edema",
+"Swallowing assessments to prevent aspiration",
+"Lifestyle modification for risk factor control",
+"Neuroprotective strategies in acute care",
+"Support groups for recovery"
+]
+},
+"HIV Infection and AIDS": {
+"medicine": [
+"Nucleoside reverse transcriptase inhibitors (NRTIs) like tenofovir, emtricitabine",
+"Non-nucleoside reverse transcriptase inhibitors (NNRTIs) such as efavirenz, rilpivirine",
+"Protease inhibitors (PIs) like darunavir, atazanavir - often boosted with ritonavir",
+"Integrase strand transfer inhibitors (INSTIs) such as dolutegravir, bictegravir",
+"Combination therapies like Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide)",
+"Entry inhibitors like maraviroc or enfuvirtide",
+"Post-exposure prophylaxis (PEP) regimens",
+"Treatment for opportunistic infections, e.g., trimethoprim-sulfamethoxazole for PCP"
+],
+"methods": [
+"Antiretroviral therapy (ART) adherence counseling",
+"Regular viral load and CD4 count monitoring",
+"Pre-exposure prophylaxis (PrEP) for prevention in high-risk individuals",
+"Supportive care including nutritional support and mental health services",
+"Vaccinations against hepatitis, pneumococcus, and influenza",
+"Harm reduction programs like needle exchange",
+"Gene therapy or stem cell transplants in experimental stages for cure"
+]
+},
+"Lower Respiratory Tract Infections": {
+"medicine": [
+"Antibiotics: amoxicillin-clavulanate for community-acquired pneumonia",
+"Macrolides like azithromycin for atypical pathogens",
+"Fluoroquinolones like levofloxacin for severe cases",
+"Antivirals like oseltamivir for influenza pneumonia",
+"Antifungals like voriconazole for fungal infections",
+"Corticosteroids for severe inflammation",
+"Mucolytics like guaifenesin"
+],
+"methods": [
+"Oxygen therapy or high-flow nasal cannula",
+"Mechanical ventilation for respiratory failure",
+"Chest physiotherapy to clear secretions",
+"Hydration and nutritional support",
+"Isolation for contagious cases",
+"Vaccination prevention (pneumococcal, flu)",
+"Bronchoscopy for diagnosis or clearance",
+"Palliative care in chronic cases"
+]
+},
+"COVID-19": {
+"medicine": [
+"Remdesivir - antiviral for hospitalized patients",
+"Paxlovid (nirmatrelvir/ritonavir) - oral antiviral for high-risk outpatients",
+"Molnupiravir - oral antiviral alternative",
+"Dexamethasone - corticosteroid for severe cases requiring oxygen",
+"Monoclonal antibodies like sotrovimab (if variant-sensitive)",
+"Tocilizumab - IL-6 inhibitor for cytokine storm",
+"Baricitinib - JAK inhibitor for moderate-severe",
+"Anticoagulants like heparin - to prevent clots"
+],
+"methods": [
+"Supportive care: oxygen, ventilation (non-invasive or mechanical)",
+"Prone positioning to improve oxygenation",
+"Isolation and quarantine protocols",
+"Vaccination with mRNA (Pfizer, Moderna) or viral vector vaccines",
+"Long COVID rehabilitation including physical therapy",
+"ECMO for refractory respiratory failure",
+"Convalescent plasma in select cases",
+"Telemedicine for mild cases"
+]
+},
+"Malaria": {
+"medicine": [
+"Artemisinin-based combination therapies (ACTs) like artemether-lumefantrine (Coartem)",
+"Chloroquine - for P. vivax in sensitive areas",
+"Atovaquone-proguanil (Malarone) - for treatment and prophylaxis",
+"Quinine sulfate + doxycycline - for severe or resistant cases",
+"Primaquine - for radical cure of P. vivax/ovale to eliminate hypnozoites",
+"Mefloquine - alternative for prophylaxis",
+"Tafenoquine - single-dose for P. vivax radical cure"
+],
+"methods": [
+"Insecticide-treated bed nets for prevention",
+"Indoor residual spraying with insecticides",
+"Supportive care: fluids, antipyretics, transfusions for anemia",
+"Hospitalization for severe malaria with IV artesunate",
+"Chemoprophylaxis for travelers",
+"Mosquito control programs (larviciding, drainage)",
+"RTS,S vaccine (Mosquirix) for children in endemic areas",
+"Rapid diagnostic testing for prompt treatment"
+]
+},
+"Migraine": {
+"medicine": [
+"Triptans like sumatriptan, rizatriptan - for acute attacks",
+"Ergotamines like dihydroergotamine - alternative acute treatment",
+"Gepants like ubrogepant or rimegepant - CGRP antagonists for acute",
+"Preventive: beta-blockers like propranolol",
+"Anticonvulsants like topiramate or valproate",
+"CGRP monoclonal antibodies like erenumab, fremanezumab",
+"Antidepressants like amitriptyline for prevention",
+"NSAIDs or acetaminophen for mild attacks"
+],
+"methods": [
+"Lifestyle triggers avoidance (stress, foods, sleep)",
+"Biofeedback or relaxation techniques",
+"Acupuncture for symptom relief",
+"Cognitive behavioral therapy for chronic migraine",
+"Occipital nerve stimulation for refractory cases",
+"Botox injections for chronic migraine prevention",
+"Hydration and rest in dark room during attacks",
+"Yoga or mindfulness meditation"
+]
+},
+"Preterm Birth Complications": {
+"medicine": [
+"Antenatal corticosteroids like betamethasone - to mature fetal lungs",
+"Magnesium sulfate - for neuroprotection in imminent preterm",
+"Tocolytics like nifedipine - to delay labor briefly",
+"Surfactant therapy (e.g., poractant alfa) - for respiratory distress",
+"Antibiotics if infection suspected",
+"Caffeine citrate - for apnea of prematurity",
+"Erythropoietin - for anemia",
+"Vitamin K and prophylactic antibiotics"
+],
+"methods": [
+"Neonatal intensive care unit (NICU) monitoring",
+"Continuous positive airway pressure (CPAP) for breathing support",
+"Parenteral nutrition until enteral feeding possible",
+"Kangaroo mother care (skin-to-skin) for bonding and stability",
+"Developmental care to minimize stress",
+"Screening for retinopathy of prematurity (ROP) with laser therapy if needed",
+"Hearing and developmental follow-up",
+"Prophylactic measures like delayed cord clamping"
+]
+},
+"Hepatitis B": {
+"medicine": [
+"Tenofovir disoproxil or alafenamide - nucleotide analog, first-line",
+"Entecavir - nucleoside analog, high potency",
+"Pegylated interferon alfa-2a - immunomodulator for finite treatment",
+"Lamivudine - older nucleoside, used in pregnancy",
+"Adefovir - for resistant cases",
+"Supportive: silymarin (milk thistle) for liver protection (adjunct)"
+],
+"methods": [
+"Vaccination series (3 doses) for prevention",
+"Regular monitoring of liver enzymes, HBV DNA, and fibrosis",
+"Liver biopsy or FibroScan for staging",
+"Lifestyle: avoid alcohol, healthy diet",
+"Liver transplantation for end-stage",
+"Screening for hepatocellular carcinoma with ultrasound/AFP",
+"Post-exposure prophylaxis with vaccine + HBIG",
+"Education on transmission prevention"
+]
+}
+}
