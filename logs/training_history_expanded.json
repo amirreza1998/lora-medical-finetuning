@@ -1,0 +1,52 @@
+{
+  "training_losses": [1.863, 1.0645, 0.1508, 0.082, 0.0668, 0.0638, 0.0574, 0.0523, 0.0489, 0.0462, 0.0453, 0.0432, 0.0408, 0.0405],
+  "training_steps": [1, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650],
+  "eval_losses": [0.09986264258623123, 0.07323724776506424, 0.0645609050989151, 0.060111287981271744, 0.05744690075516701, 0.05760082229971886],
+  "eval_steps": [100, 200, 300, 400, 500, 600],
+  "learning_rates": [0.0, 4.9e-05, 9.900000000000001e-05, 9.808900343800569e-05, 9.235233564979755e-05, 8.324566586395563e-05, 7.149361752566232e-05, 5.803130851610886e-05, 4.3929943234270935e-05, 3.0311576188832647e-05, 1.8259829414883728e-05, 8.733667986724109e-06, 2.491094563478302e-06, 2.8834640539737723e-08],
+  "grad_norms": [1.9237240552902222, 0.7457060217857361, 0.4317280948162079, 0.28945478796958923, 0.3171152174472809, 0.2732333838939667, 0.3469400405883789, 0.263509064912796, 0.2878596782684326, 0.19705140590667725, 0.22040928900241852, 0.26722994446754456, 0.26282042264938354, 0.23583534359931946],
+  "epochs": [0.01, 0.38, 0.77, 1.15, 1.53, 1.91, 2.29, 2.68, 3.05, 3.44, 3.82, 4.2, 4.58, 4.97],
+  "final_loss": 0.13913841802655286,
+  "total_steps": 655,
+  "training_time": 18669.8581,
+  "samples_per_second": 0.558,
+  "steps_per_second": 0.035,
+  "final_epoch": 5.0,
+  "dataset_info": {
+    "train_samples": 2085,
+    "test_samples": 369,
+    "total_samples": 2454
+  },
+  "model_info": {
+    "trainable_params": 2118123520,
+    "all_params": 10146156544,
+    "trainable_percentage": 20.8761,
+    "model_name": "CohereLabs/aya-23-8B"
+  },
+  "gpu_memory": {
+    "allocated_gb": 30.95,
+    "cached_gb": 48.95
+  },
+  "eval_details": [
+    {"step": 100, "loss": 0.09986264258623123, "runtime": 60.8255, "samples_per_second": 6.067, "steps_per_second": 3.041, "epoch": 0.77},
+    {"step": 200, "loss": 0.07323724776506424, "runtime": 62.7811, "samples_per_second": 5.878, "steps_per_second": 2.947, "epoch": 1.53},
+    {"step": 300, "loss": 0.0645609050989151, "runtime": 61.895, "samples_per_second": 5.962, "steps_per_second": 2.989, "epoch": 2.29},
+    {"step": 400, "loss": 0.060111287981271744, "runtime": 61.7381, "samples_per_second": 5.977, "steps_per_second": 2.997, "epoch": 3.05},
+    {"step": 500, "loss": 0.05744690075516701, "runtime": 61.7525, "samples_per_second": 5.975, "steps_per_second": 2.996, "epoch": 3.82},
+    {"step": 600, "loss": 0.05760082229971886, "runtime": 60.749, "samples_per_second": 6.074, "steps_per_second": 3.045, "epoch": 4.58}
+  ],
+  "training_config": {
+    "num_epochs": 5,
+    "batch_size": 1,
+    "eval_batch_size": 2,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 1e-4,
+    "lr_scheduler": "cosine_with_restarts",
+    "warmup_steps": 100,
+    "eval_steps": 100,
+    "save_steps": 200,
+    "logging_steps": 50,
+    "max_grad_norm": 1.0,
+    "weight_decay": 0.01
+  }
+}

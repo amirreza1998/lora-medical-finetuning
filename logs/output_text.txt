@@ -1,0 +1,91 @@
+(lora_finetune) E:\kazemloo\3SEP\nlu_final_project>python e:/kazemloo/3SEP/nlu_final_project/complete_improved_lora_fine_tune_with_visualization_Version2.py
+🚀 شروع آموزش مدل پزشکی با بهبودهای جامع و تجسم
+بارگذاری مدل CohereLabs/aya-23-8B...
+`torch_dtype` is deprecated! Use `dtype` instead!
+C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\accelerate\utils\modeling.py:821: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:35.)
+  _ = torch.tensor([0], device=i)
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 4/4 [00:09<00:00,  2.45s/it]
+آماده‌سازی داده‌های آموزشی...
+Map: 100%|████████████████████████████████████████████████████████████████| 2454/2454 [00:00<00:00, 2535.92 examples/s]
+📊 آماده‌سازی داده‌ها: DatasetDict({
+    train: Dataset({
+        features: ['labels', 'input_ids', 'attention_mask'],
+        num_rows: 2085
+    })
+    test: Dataset({
+        features: ['labels', 'input_ids', 'attention_mask'],
+        num_rows: 369
+    })
+})
+پاک‌سازی حافظه...
+آماده‌سازی مدل LoRA...
+trainable params: 2,118,123,520 || all params: 10,146,156,544 || trainable%: 20.8761
+e:\kazemloo\3SEP\nlu_final_project\complete_improved_lora_fine_tune_with_visualization_Version2.py:607: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+شروع آموزش...
+  0%|                                                                                          | 0/655 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  0%|                                                                                | 1/655 [00:25<4:37:51, 25.49s/it]GPU Memory - Allocated: 30.95GB, Cached: 45.01GB
+{'loss': 1.863, 'grad_norm': 1.9237240552902222, 'learning_rate': 0.0, 'epoch': 0.01}
+  8%|██████                                                                         | 50/655 [24:44<4:55:22, 29.29s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 1.0645, 'grad_norm': 0.7457060217857361, 'learning_rate': 4.9e-05, 'epoch': 0.38}
+ 15%|███████████▉                                                                  | 100/655 [49:42<4:30:47, 29.27s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.1508, 'grad_norm': 0.4317280948162079, 'learning_rate': 9.900000000000001e-05, 'epoch': 0.77}
+ 15%|███████████▉                                                                  | 100/655 [49:45<4:30:47, 29.27s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB██████████████████████████████████████| 185/185 [01:00<00:00,  3.12it/s]
+{'eval_loss': 0.09986264258623123, 'eval_runtime': 60.8255, 'eval_samples_per_second': 6.067, 'eval_steps_per_second': 3.041, 'epoch': 0.77}
+ 23%|█████████████████▍                                                          | 150/655 [1:14:30<3:48:24, 27.14s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.082, 'grad_norm': 0.28945478796958923, 'learning_rate': 9.808900343800569e-05, 'epoch': 1.15}
+ 31%|███████████████████████▏                                                    | 200/655 [1:37:07<3:27:11, 27.32s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0668, 'grad_norm': 0.3171152174472809, 'learning_rate': 9.235233564979755e-05, 'epoch': 1.53}
+ 31%|███████████████████████▏                                                    | 200/655 [1:37:10<3:27:11, 27.32s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB██████████████████████████████████████| 185/185 [01:02<00:00,  3.08it/s]
+{'eval_loss': 0.07323724776506424, 'eval_runtime': 62.7811, 'eval_samples_per_second': 5.878, 'eval_steps_per_second': 2.947, 'epoch': 1.53}
+ 31%|███████████████████████▏                                                    | 200/655 [1:38:13<3:27:11, 27.32s/it]C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\other.py:1228: UserWarning: Unable to fetch remote file due to the following error (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /CohereLabs/aya-23-8B/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019B05E0B4D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f21b292e-d579-47ca-b4ac-dcd67e040076)') - silently ignoring the lookup for the file config.json in CohereLabs/aya-23-8B.
+  warnings.warn(
+C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\save_and_load.py:286: UserWarning: Could not find a config file in CohereLabs/aya-23-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+ 38%|█████████████████████████████                                               | 250/655 [2:01:20<3:04:38, 27.36s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0638, 'grad_norm': 0.2732333838939667, 'learning_rate': 8.324566586395563e-05, 'epoch': 1.91}
+ 46%|██████████████████████████████████████████████████████████▏                                                                    | 300/655 [2:23:42<2:35:50, 26.34s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0574, 'grad_norm': 0.3469400405883789, 'learning_rate': 7.149361752566232e-05, 'epoch': 2.29}
+ 46%|██████████████████████████████████████████████████████████▏                                                                    | 300/655 [2:23:45<2:35:50, 26.34s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB█████████████████████████████████████████████████████████████████████████████████████████| 185/185 [01:01<00:00,  3.08it/s]
+{'eval_loss': 0.0645609050989151, 'eval_runtime': 61.895, 'eval_samples_per_second': 5.962, 'eval_steps_per_second': 2.989, 'epoch': 2.29}
+ 53%|███████████████████████████████████████████████████████████████████▊                                                           | 350/655 [2:46:34<2:13:21, 26.23s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0523, 'grad_norm': 0.263509064912796, 'learning_rate': 5.803130851610886e-05, 'epoch': 2.68}
+ 61%|█████████████████████████████████████████████████████████████████████████████▌                                                 | 400/655 [3:08:22<1:59:49, 28.20s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0489, 'grad_norm': 0.2878596782684326, 'learning_rate': 4.3929943234270935e-05, 'epoch': 3.05}
+ 61%|█████████████████████████████████████████████████████████████████████████████▌                                                 | 400/655 [3:08:25<1:59:49, 28.20s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB█████████████████████████████████████████████████████████████████████████████████████████| 185/185 [01:01<00:00,  3.06it/s]
+{'eval_loss': 0.060111287981271744, 'eval_runtime': 61.7381, 'eval_samples_per_second': 5.977, 'eval_steps_per_second': 2.997, 'epoch': 3.05}
+ 61%|█████████████████████████████████████████████████████████████████████████████▌                                                 | 400/655 [3:09:27<1:59:49, 28.20s/it]C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\other.py:1228: UserWarning: Unable to fetch remote file due to the following error (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /CohereLabs/aya-23-8B/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019B05E0AAD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ffdf2801-77e7-4fc2-a87f-c217e0b5761b)') - silently ignoring the lookup for the file config.json in CohereLabs/aya-23-8B.
+  warnings.warn(
+C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\save_and_load.py:286: UserWarning: Could not find a config file in CohereLabs/aya-23-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+ 69%|███████████████████████████████████████████████████████████████████████████████████████▎                                       | 450/655 [3:33:12<1:33:16, 27.30s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0462, 'grad_norm': 0.19705140590667725, 'learning_rate': 3.0311576188832647e-05, 'epoch': 3.44}
+ 76%|████████████████████████████████████████████████████████████████████████████████████████████████▉                              | 500/655 [3:56:54<1:14:50, 28.97s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0453, 'grad_norm': 0.22040928900241852, 'learning_rate': 1.8259829414883728e-05, 'epoch': 3.82}
+ 76%|████████████████████████████████████████████████████████████████████████████████████████████████▉                              | 500/655 [3:56:57<1:14:50, 28.97s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB█████████████████████████████████████████████████████████████████████████████████████████| 185/185 [01:01<00:00,  3.07it/s]
+{'eval_loss': 0.05744690075516701, 'eval_runtime': 61.7525, 'eval_samples_per_second': 5.975, 'eval_steps_per_second': 2.996, 'epoch': 3.82}
+ 84%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                    | 550/655 [4:20:52<47:36, 27.21s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0432, 'grad_norm': 0.26722994446754456, 'learning_rate': 8.733667986724109e-06, 'epoch': 4.2}
+ 92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏          | 600/655 [4:43:49<24:57, 27.23s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0408, 'grad_norm': 0.26282042264938354, 'learning_rate': 2.491094563478302e-06, 'epoch': 4.58}
+ 92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏          | 600/655 [4:43:52<24:57, 27.23s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB█████████████████████████████████████████████████████████████████████████████████████████| 185/185 [01:00<00:00,  3.16it/s]
+{'eval_loss': 0.05760082229971886, 'eval_runtime': 60.749, 'eval_samples_per_second': 6.074, 'eval_steps_per_second': 3.045, 'epoch': 4.58}
+ 92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏          | 600/655 [4:44:53<24:57, 27.23s/it]C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\other.py:1228: UserWarning: Unable to fetch remote file due to the following error (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /CohereLabs/aya-23-8B/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019B05E0B250>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: bdbfea90-bc41-403d-8927-31816701de09)') - silently ignoring the lookup for the file config.json in CohereLabs/aya-23-8B.
+  warnings.warn(
+C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\save_and_load.py:286: UserWarning: Could not find a config file in CohereLabs/aya-23-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+ 99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 650/655 [5:08:19<02:15, 27.15s/it]GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'loss': 0.0405, 'grad_norm': 0.23583534359931946, 'learning_rate': 2.8834640539737723e-08, 'epoch': 4.97}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 655/655 [5:10:19<00:00, 22.09s/it]C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\other.py:1228: UserWarning: Unable to fetch remote file due to the following error (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /CohereLabs/aya-23-8B/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019B05E0AAD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 3edb634b-a0fb-4327-b746-18af9828f7ac)') - silently ignoring the lookup for the file config.json in CohereLabs/aya-23-8B.
+  warnings.warn(
+C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\save_and_load.py:286: UserWarning: Could not find a config file in CohereLabs/aya-23-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+GPU Memory - Allocated: 30.95GB, Cached: 48.95GB
+{'train_runtime': 18669.8581, 'train_samples_per_second': 0.558, 'train_steps_per_second': 0.035, 'train_loss': 0.13913841802655286, 'epoch': 5.0}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 655/655 [5:11:09<00:00, 28.50s/it]
+آموزش کامل شد. Final loss: 0.1391
+C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\other.py:1228: UserWarning: Unable to fetch remote file due to the following error (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /CohereLabs/aya-23-8B/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019B05E0A710>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 74581c19-5ec9-4c7d-8dbb-d5d449e56dc2)') - silently ignoring the lookup for the file config.json in CohereLabs/aya-23-8B.
+  warnings.warn(
+C:\Users\pc\miniconda3\envs\lora_finetune\Lib\site-packages\peft\utils\save_and_load.py:286: UserWarning: Could not find a config file in CohereLabs/aya-23-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+✅ آموزش کامل شد!
