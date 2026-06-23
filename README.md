@@ -16,6 +16,8 @@ This project addresses this challenge by:
 
 ```text
 16-LLM-RAG-FINETUNE-MEDICAL/
+├── prompts/                         # <-- NEW: Store text-based prompt generation outputs here
+│   └── medical_conversation_prompts.txt
 │
 ├── 1-DATABASE/                      
 │   ├── disease_knowledge_base/        # Extracted disease facts, symptoms, and treatments
@@ -23,6 +25,7 @@ This project addresses this challenge by:
 │   └── README.md                      # Detailed documentation on dataset generation methodology
 │
 ├── scripts/
+│   ├── prompt_generator.py          # <-- NEW: Script to generate the prompt structures
 │   ├── generate-diverse-data.ipynb    # Pipeline for generating complex, multi-symptom scenarios and varying demographics
 │   ├── regenerate_diff_style.py       # Script to alter dialogue styles (e.g., formal, friendly, emergency)
 │   ├── lora-fine-tune2.ipynb          # Primary fine-tuning notebook with LoRA configuration and memory optimization
@@ -34,11 +37,14 @@ This project addresses this challenge by:
 
 ## 🛠️ Key Components
 
-### 1. Data Generation (`scripts/generate-diverse-data.ipynb`)
+### 1. Prompt Engineering (`scripts/prompt_generator.py`)
+Before data synthesis, the `prompt_generator.py` script systematically constructs the foundational system prompts. It maps out specific patient personas, demographic variations, and conversation styles, outputting the configurations to `prompts/medical_conversation_prompts.txt`. This ensures high variability and strict structural guidelines for the LLMs during data generation.
 
-The synthetic data generation pipeline creates diverse conversational data by mapping extracted medical facts to specific user personas (e.g., "concerned young patient", "elderly patient with multiple questions") and conversation types (e.g., "emergency situation", "treatment discussion"). Quality control functions ensure the generated dialogues maintain high medical accuracy and natural conversational flow.
+### 2. Data Generation (`scripts/generate-diverse-data.ipynb` & `regenerate_diff_style.py`)
+The synthetic data generation pipeline ingests the generated prompts to create diverse conversational data. It maps extracted medical facts to the defined personas(e.g., "concerned young patient", "elderly patient with multiple questions") and conversation types(e.g., "emergency situation", "treatment discussion"). Furthermore, `regenerate_diff_style.py` acts as a data augmentation tool to dynamically alter the dialogue style (e.g., rewriting a standard inquiry into an urgent emergency scenario), increasing the robustness of the fine-tuning dataset. also, Quality control functions ensure the generated dialogues maintain high medical accuracy and natural conversational flow.
 
-### 2. LoRA Fine-Tuning (`scripts/improved_lora_fine_tune.py`)
+
+### 3. LoRA Fine-Tuning (`scripts/improved_lora_fine_tune.py`)
 
 To train the `aya-23-8B` model on 2x T4 GPUs (approx. 30GB VRAM total), the fine-tuning script employs aggressive memory optimizations:
 
