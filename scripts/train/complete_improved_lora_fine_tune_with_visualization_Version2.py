@@ -26,10 +26,14 @@ from typing import Dict, List, Tuple
 import re
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+from dotenv import load_dotenv
 
 # Improved configuration
 class Config:
-    HF_TOKEN = "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"
+    load_dotenv()
+    my_hf_token = os.getenv("HF_TOKEN")
+    HF_TOKEN = my_hf_token
     MODEL_NAME = "CohereLabs/aya-23-8B"
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
     MAX_LENGTH = 512

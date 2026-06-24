@@ -551,9 +551,15 @@ class MedicalLoRATrainer:
 # Example usage
 # def main():
 # Initialize trainer
+import os
+from dotenv import load_dotenv
+load_dotenv()
+my_hf_token = os.getenv("HF_TOKEN")
+
+
 trainer = MedicalLoRATrainer(
     model_name="CohereLabs/aya-23-8B",
-    hf_token="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"
+    hf_token=my_hf_token
 )
 
 # Load model
