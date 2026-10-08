@@ -56,7 +56,7 @@ To train the `aya-23-8B` model on 2x T4 GPUs (approx. 30GB VRAM total), the fine
 
 ### 1. Environment Setup
 
-Clone the repository and install the required dependencies using the `requirements.txt` file at the root of the project:
+This project uses Python 3.13.11. To set up the environment, create a virtual environment and install the required dependencies using the `requirements.txt` file located in the `scripts` directory:
 
 ```bash
 # Clone the repository
@@ -64,7 +64,7 @@ git clone <repository-url>
 cd 16-LLM-RAG-FINETUNE-MEDICAL
 
 # Create and activate a virtual environment (optional but recommended)
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # Install dependencies
