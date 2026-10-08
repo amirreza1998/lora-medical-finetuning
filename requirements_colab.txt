@@ -1,5 +1,5 @@
 torch>=2.0.0
-transformers>=4.40.0
+transformers>=4.40.0,<4.46.0
 accelerate
 peft>=0.10.0
 bitsandbytes>=0.43.1
