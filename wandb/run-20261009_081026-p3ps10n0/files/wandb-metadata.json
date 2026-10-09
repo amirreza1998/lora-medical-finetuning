@@ -1,0 +1,38 @@
+{
+  "os":  "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.15",
+  "startedAt":  "2026-10-09T08:10:26.543075Z",
+  "program":  "e:\\2-git_repositories\\19-lora-medical-finetuning-ai\\advanced_medical_lora.ipynb",
+  "git":  {
+    "remote":  "https://github.com/amirreza1998/lora-medical-finetuning.git",
+    "commit":  "f180313c8f513aad4fe80a75d433d09b5e659136"
+  },
+  "email":  "amirrezakazemloo99@gmail.com",
+  "root":  "/content/lora-medical-finetuning",
+  "host":  "30ad58918ee7",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA L4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "253055008768",
+      "used":  "61087395840"
+    }
+  },
+  "memory":  {
+    "total":  "56863326208"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA L4",
+      "memoryTotal":  "24152899584",
+      "cudaCores":  7424,
+      "architecture":  "Ada",
+      "uuid":  "GPU-53006190-76a2-5ac3-6c37-c55fe3f320ad"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "gqetb4j7q961q6ayhm9xhz8q12dxcwb7"
+}
